@@ -1,0 +1,606 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+::selection{
+    background-color: #B20000;
+    color: #ffffff;
+}
+
+.detalhe{
+    background-color: #B20000;
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.15);
+    height: 1vh;
+    width: 100%;
+}
+
+/*MENU*/
+
+.menu{
+    background-color: #ffffff;
+    padding: 10px;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 15vh;
+    z-index: 10;
+}
+
+.nav-link{
+    color: #000000;
+    font-size: larger;
+    white-space: nowrap;
+}
+
+.nav-link:hover{
+    color: #ffffff;
+}
+
+.menu img{
+    margin-left: 5%;
+}
+
+.menu-etec{
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-item{
+    margin-right: 1%;
+}
+
+.nav-link{
+    padding: 5px;
+    border-radius: 10%;
+}
+
+.nav-link:hover{
+    transition: 0.4s;
+    background-color: #B20000;
+}
+
+.dropdown-menu{
+    background-color: #faf5f5;
+    border: 3px solid #B20000;
+    padding: 10px;
+    margin-top: 80px;
+    margin-left: -150px;
+}
+
+.dropdown-item{
+    text-align: center;
+    width: 60vh;
+    color: #000000;
+    white-space: normal;
+    padding: 3% 0;
+    margin: 1% 1% 0 0;
+}
+
+.dropdown-item:hover{
+    background-color: #B20000;
+    color: #ffffff;
+    transition: 0.4;
+    border-radius: 2%;
+}
+
+.botao-area-aluno{
+    background-color: #B20000;
+    color: #ffffff;
+    font-size: large;
+    border-radius: 10px;
+}
+
+.botao-area-aluno a{
+    color: #ffffff;
+}
+
+.botao-area-aluno:hover{
+    transition: 0.4s;
+    border-radius: 0;
+}
+
+/*HOME*/
+
+.home{
+    padding-bottom: 2%;
+    background-image: url("images/home3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.artigos{
+    display: flex;
+    flex-direction: row;
+}
+
+.home .card{
+    width: 80%;
+    border-radius: 10px;
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.15);
+}
+
+.home .card img{
+    height: 200px;
+}
+
+.escolatec{
+    padding-top: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cps{
+    margin-top: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.endereco{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ajuste-mapa{
+    margin-top: 5%;
+    background-color: #ffffff;
+    border-radius: 10px;
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.15);
+}
+
+.ajuste-mapa p{
+    white-space: normal;
+    font-size: larger;
+    color: black;
+}
+
+.mapa{
+    padding: 2%;
+}
+
+.mapa iframe{
+    border-radius: 10px;
+}
+
+/*SOBRE*/
+
+.sobre h2{
+    margin-top: 3%;
+}
+
+.sobre article img{
+    border-radius: 5%;
+}
+
+.titulo-sobre{
+    padding: 2%;
+    background-color: rgb(34, 32, 32);
+    color: #ffffff;
+    font-size: xxx-large;
+    text-align: center;
+}
+
+.hist{
+    background-image: url("images/fundo-sobre.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.infra{
+    background-image: url("images/fundo-sobre2.JPG");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.eventos{
+    background-image: url("images/fundo-sobre3.jpg");
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.sobre p{
+    width: 60%;
+    text-align: justify;
+    text-indent: 5%;
+}
+
+.sobre img{
+    width: 20%;
+}
+
+.sobre-historia{
+    margin: 3% 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.sobre-infra{
+    margin: 3% 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+
+.sobre-eventos{
+    margin: 3% 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+/*CURSOS*/
+
+.titulo-curso{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.titulo-curso p{
+    margin-top: 1%;
+    padding: 1%;
+    border-radius: 15px;
+    background-color: rgba(34, 32, 32, 0.8);
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.15);
+    color: #ffffff;
+    font-size: xx-large;
+    text-align: center;
+    width: 80vh;
+}
+
+.ds .titulo-curso{
+    background-image: url("images/fundo-ds.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.adm .titulo-curso{
+    background-image: url("images/fundo-adm.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.chs .titulo-curso{
+    background-image: url("images/fundo-chs.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.mkt .titulo-curso{
+    background-image: url("images/fundo-mkt.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.rh .titulo-curso{
+    background-image: url("images/fundo-rh.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.quali .titulo-curso{
+    background-image: url("images/fundo-quali.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.seguranca .titulo-curso{
+    background-image: url("images/fundo-seg.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.sobre-curso{
+    margin-top: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.sobre-curso .artigos{
+    width: 90vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.descricao-curso{
+    font-size: large;
+}
+
+.componentes{
+    margin: 2% 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.list-group-item{
+    text-align: center;
+    width: 20vh;
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.15);
+}
+
+.list-group .active{
+    background-color: #B20000;
+}
+
+.list-group h2{
+    margin-bottom: 2%;
+    text-align: center;
+}
+
+.ajuste-componentes{
+    text-align: center;
+    margin: 3% 0;
+}
+
+.tab-pane{
+    text-align: left;
+}
+
+
+/*GALERIA*/
+
+.galeria{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.galeria img{
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.15);
+}
+
+.ajuste-galeria{
+    margin-top: 3%;
+    display: flex;
+    flex-direction: column;
+}
+
+.ajuste-img-galeria{
+    margin: 3% 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ajuste-img-galeria img{
+    margin-left: 2%;
+}
+
+.ajuste-img-galeria img:first-child{
+    margin-left: 0;
+}
+
+.img-fluid{
+    margin: 3% 0;
+}
+
+
+/*CONTATO*/
+
+.contato{
+    background-image: url("images/fundo-contato.JPG");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+    width: 100%;
+}
+
+.ajuste-form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ajuste-form form{
+    margin: 4% 0%;
+    background-color: #faf5f5;
+    padding: 2% 5%;
+    border-radius: 5%;
+}
+
+.ajuste-form button{
+    border: 0;
+}
+
+.ajuste-form button:hover{
+    transition: 0.4s;
+    background-color: #B20000;
+    border: 0;
+}
+
+textarea{
+    width: 100%;
+}
+
+/*AREA ALUNO*/
+
+.area-aluno-login{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 74vh;
+    background-image: url("images/fundo-contato.JPG");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#loginForm{
+    padding: 3%;
+    display: flex;
+    flex-direction: column;
+    width: 50vh;
+    background-color: #faf5f5;
+    border-radius: 15px;
+    font-size: larger;
+    color: #000000;
+    text-align: left;
+}
+
+#loginForm h2{
+    white-space: nowrap;
+    margin-bottom: 20px;
+}
+
+#loginForm button{
+    padding: 1%;
+    margin-top: 5%;
+    width: 40%;
+    border: 0;
+    background-color: #007BFF;
+    border-radius: 8px;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+#loginForm button:hover{
+    transition: 0.4s;
+    background-color: #B20000;
+}
+
+.area-aluno{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ajuste-aluno{
+    display: flex;
+    flex-direction: column;
+}
+
+.botoes{
+    margin: 2% 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.botoes button{
+    margin-left: 5%;
+    width: 120px;
+    padding: 2%;
+    background-color: #faf5f5;
+    border: 3px solid #B20000;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.botoes button:first-child{
+    margin-left: 0;
+}
+
+.botoes button:hover{
+    transition: 0.6s;
+    color: #ffffff;
+    background-color: #B20000;
+}
+
+#tabelaGeral{
+    margin-bottom: 2%;
+    background-color: #faf5f5;
+    border: 3px solid #B20000;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    flex-direction: column;
+}
+
+.ajuste-table{
+    margin-left: 50px;
+}
+
+.calendario{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 2% 0;
+}
+
+.calendario table{
+    border-collapse: collapse;
+    width: 80%;
+}
+
+.calendario th, .calendario td{
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+.calendario th{
+    background-color: #f2f2f2;
+}
+
+.evento{
+    background-color: #B20000;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.botoes-mes{
+    width: 100vh;
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.botoes-mes button{
+    white-space: nowrap;
+    cursor: pointer;
+    padding: 2%;
+    border: 2px solid #B20000;
+}
+
+.botoes-mes button:hover{
+    transition: 0.4s;
+    background-color: #B20000;
+    color: #ffffff;
+}
+
+/*FOOTER*/
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(108, 117, 125);
+    text-align: center;
+    height: 10vh;
+}
+
+footer p{
+    margin-top: 1%;
+    color: #ffffff;
+}
